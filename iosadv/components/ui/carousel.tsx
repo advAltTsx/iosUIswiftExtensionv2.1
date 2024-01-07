@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 
 type CarouselProps = {
-  opts?: CarouselOptions
+  opts?: CarouselApi
   plugins?: CarouselPlugin[]
   orientation?: "horizontal" | "vertical"
   setApi?: (api: CarouselApi) => void
