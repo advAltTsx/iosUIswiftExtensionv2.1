@@ -144,7 +144,7 @@ export default function Home() {
           <Button
       variant="link"
       onClick={() =>
-        toast("Let me live freely just like you, and make some friends IRL", {
+        toast("Let me \make some friends IRL", {
           description: "I'm really not upset, angry or anything on you, ATB42MRW",
           action: {
             label: "Oke",
